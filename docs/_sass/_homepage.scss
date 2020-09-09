@@ -50,6 +50,35 @@
     }
 }
 
+.callout-mail {
+    color: $dark-grey;
+    background-color: $green;
+    padding: 40px 30px;
+
+    p {
+        font-size: 23px;
+
+        @include mq(sm) {
+            font-size: 30px;
+        }
+    }
+
+    @include mq(lg) { 
+        padding: 40px 100px;
+    }
+}
+
+.callout-mail__title {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: $header-font;
+    color: $black;
+
+    @include mq(lg) {
+        font-size: 50px;
+    }
+}
 
 .callout-1 {
     // margin-top: 10px;
@@ -69,7 +98,7 @@
 }
 
 .callout-1__title {
-    background-color: $green;
+    background-color: $gold;
     color: $black;
     padding: 40px 30px;
     margin: 0;
