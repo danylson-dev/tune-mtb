@@ -1,0 +1,20 @@
+.mail-in-contact {
+    background-color: $white;
+    max-width: 1200px;
+    color: $dark-grey;
+    padding: 30px;
+
+    @include mq(lg) {
+        padding-left : 100px;
+        padding-right: 100px;
+    }
+}
+
+.required::after {
+    content: "*";
+    color: red;
+}
+
+.mail-in-contact__form {
+    margin-top: 100px;
+}

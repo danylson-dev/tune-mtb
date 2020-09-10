@@ -1,0 +1,90 @@
+---
+layout: default
+title: Mail-In Contact Tune MTB
+description: Mail-In Contact Form Request
+permalink: /mail-in-contact/
+---
+
+<div class="page-hero">
+    <picture>
+        <source media="(min-width:768px)" srcset="{{ site.url }}/assets/images/photos/contact-hero.jpg">
+        <img src="{{ site.url }}/assets/images/photos/contact-hero.jpg" alt="Tune MTB Contact" class="hero__image"/>
+    </picture>
+    <div class="page-title"><h1>Mail-In Contact</h1></div>
+</div>
+
+<div class="mail-in-contact">
+    <div class="standout">
+        <p>In addition to in-person drop-off/pickup we offer mail-in service with quick turnaround. Typical turnaround is 2-3 days after receiving suspension pieces.</p>
+
+        <p>Form fields labeled <span class="required"></span> are required to fill out.</p>
+    </div>
+
+    <form
+        class="mail-in-contact__form"
+      action="https://formspree.io/xrgywvqw"
+      method="POST">
+      <fieldset>
+        <label>
+          <span class="required">Your Name</span>:
+          <input type="text" name="name" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Address</span>:
+            <textarea name="address" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Email</span>:
+          <input type="text" name="email" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Phone</span>:
+            <input type="text" name="phone" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Bike Brand / Model / Year</span>:
+            <textarea name="brand" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Rider Weight</span>:
+            <input type="text" name="weight" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Riding Style</span>:
+          <input type="text" name="style" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Fork / Shock / Seatpost</span>:
+            <textarea name="fork-shock-seatpost" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Services Requested</span>:
+            <textarea name="services-requested" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            Other Notes:
+            <textarea name="services-requested"></textarea>
+        </label>
+      </fieldset>
+
+      <button class="form-button" type="submit">Send</button>
+    </form>
+</div>
