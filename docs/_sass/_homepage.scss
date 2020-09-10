@@ -41,12 +41,12 @@
         z-index:99;
         width: 250px;
         font-size: 30px;
-        left:30px;
+        right:30px;
         top: 20px;
     }
 
     @include mq(lg) { 
-		left:100px;
+		right:100px;
     }
 }
 
