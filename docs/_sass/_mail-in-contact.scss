@@ -12,7 +12,7 @@
 
 .required::after {
     content: "*";
-    color: red;
+    color: $red;
 }
 
 .mail-in-contact__form {
