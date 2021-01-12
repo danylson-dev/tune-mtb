@@ -234,5 +234,6 @@
     @include mq(lg) {
         width: 700px;
         padding: 20px 20px 20px 100px;
+        z-index:99;
     }
 }
