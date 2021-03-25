@@ -13,6 +13,7 @@
 
     @include mq(md) {
         display: table-cell;
+        vertical-align: text-top;
         width: 50%;
         padding: 50px;
 
