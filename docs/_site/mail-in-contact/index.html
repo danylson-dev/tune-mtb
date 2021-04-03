@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179869374-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179869374-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="address=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Mail-In Contact Form Request">
+    <title>Mail-In Contact Tune MTB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" >
+
+    <script src="https://kit.fontawesome.com/7a594c0d30.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="site-container">
+      <header class="site__header">
+    <div class="logo">
+        <img src="http://localhost:4000/assets/images/logo.png" alt="Tune MTB logo" class="logo__img"/>
+    </div>
+    <nav class="site__nav">
+        <ul>
+            
+                
+                    <li><a href="http://localhost:4000/">Home</a></li>
+                
+            
+                
+                    <li><a href="http://localhost:4000/services/">Services</a></li>
+                
+            
+                
+                    <li><a href="http://localhost:4000/contact/">Contact</a></li>
+                
+            
+                
+                    <li class="active"><a href="http://localhost:4000/mail-in-contact/">Mail-In Form</a></li>
+                
+            
+        </ul>
+    </nav>
+</header>
+      <div class="site__content">
+    <div class="page-hero">
+    <picture>
+        <source media="(min-width:768px)" srcset="http://localhost:4000/assets/images/photos/contact-hero.jpg">
+        <img src="http://localhost:4000/assets/images/photos/contact-hero.jpg" alt="Tune MTB Contact" class="hero__image"/>
+    </picture>
+    <div class="page-title"><h1>Mail-In Contact</h1></div>
+</div>
+
+<div class="mail-in-contact">
+    <div class="standout">
+        <p>Please fill out the following form to initiate service request. Further instruction will be emailed to you.</p>
+
+        <p>Form fields labeled <span class="required"></span> are required to fill out.</p>
+    </div>
+
+    <form
+      class="mail-in-contact__form"
+      action="https://formspree.io/mvowejeq"
+      method="POST">
+      <fieldset>
+        <label>
+          <span class="required">Your Name</span>
+          <input type="text" name="name" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Address</span>
+            <textarea name="address" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Email</span>
+          <input type="text" name="email" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Your Phone</span>
+            <input type="text" name="phone" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Bike Brand / Model / Year</span>
+            <textarea name="brand" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Rider Weight</span>
+            <input type="text" name="weight" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Riding Style</span>
+          <input type="text" name="style" required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Fork / Shock / Seatpost</span>
+            <textarea name="fork-shock-seatpost" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            <span class="required">Services Requested</span>
+            <textarea name="services-requested" required></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>
+            Other Notes
+            <textarea name="services-requested"></textarea>
+        </label>
+      </fieldset>
+
+      <button class="form-button" type="submit">Send</button>
+    </form>
+</div>
+    <div class="site-footer">
+    <p>&copy; Tune MTB Service &amp; Suspension</p>
+    <p>274 N. Goodman St<br />Suite B131<br />Rochester, NY 14607</p>
+    <div class="site-footer__links">
+        
+           <a href="http://localhost:4000/">Home</a>
+        
+           <a href="http://localhost:4000/services/">Services</a>
+        
+           <a href="http://localhost:4000/contact/">Contact</a>
+        
+           <a href="http://localhost:4000/mail-in-contact/">Mail-In Form</a>
+        
+    </div>
+</div>
+</div>
+    </div>
+  </body>
+</html>
