@@ -61,12 +61,18 @@
 }
 
 .sponsor-side {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+
+    display: none;
+    
+    @include mq(md) {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+    }
 }
 
 .sponsor-side img {
