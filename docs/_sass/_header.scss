@@ -1,6 +1,7 @@
 .site__header {  
     background-color: $black;
     display: block;
+    position: relative;
 
     @include mq(sm) {
         position: fixed;
@@ -59,7 +60,14 @@
     }
 }
 
-.sponsor-side img {
-    max-width: 200px;
-    background-color: white;
+.sponsor-side {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    img {
+        max-width: 200px;
+        background-color: white;
+    }
 }
