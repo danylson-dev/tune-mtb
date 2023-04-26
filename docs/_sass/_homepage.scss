@@ -190,6 +190,37 @@
 
 }
 
+.sponsor-banner {
+	float:right;
+	
+	img {
+		max-width:150px;
+	}
+}
+
+.callout-sponsor {
+	background-color: white;
+    color: $dark-grey;
+    clear: both;
+    padding: 40px 30px;
+
+    @include mq(lg) { 
+        padding: 40px 100px;
+    }
+
+    a {
+        color: $dark-grey;
+    }
+
+    p {
+        font-size: 23px;
+
+        @include mq(sm) {
+            font-size: 30px;
+        }
+    }
+}
+
 .callout-2 {
     background-color: $gold;
     color: $dark-grey;
