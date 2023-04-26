@@ -64,7 +64,7 @@
 
     display: none;
     
-    @include mq(md) {
+    @include mq(sm) {
             display: block;
             position: absolute;
             left: 50%;
