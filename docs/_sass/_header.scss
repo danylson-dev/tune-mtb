@@ -62,14 +62,14 @@
 
 .sponsor-side {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
-    
-    img {
-        max-width: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-    }
+    width: 100%;
+    text-align: center;
+}
+
+.sponsor-side img {
+    max-width: 150px;
+    background-color: white;
 }
